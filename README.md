@@ -42,8 +42,8 @@ For example, "WALKING_UPSTAIRS" becomes "Walking Upstairs". (lines 11 - 14)
 the relevant columns from the data in Step 1 by choosing only variable names with mean() and std() (lines 47-49).
 There are 66 such measurements. The smaller data table is mergedDataMeanStd (line 50).
 3.  Use descriptive activity names to name the activities in the data set.
-  -Replace column 2 of my smaller data table using the name of the activities read in from Step 0 using subsetting (line 53). 
-    -For example, if mergedDataMeanStd[5,2] is 3, then replace this with the activity numbered 3 
+  - Replace column 2 of my smaller data table using the name of the activities read in from Step 0 using subsetting (line 53). 
+  - For example, if mergedDataMeanStd[5,2] is 3, then replace this with the activity numbered 3 
 (Walking Downstairs) by accessing activities[5,2] and storing it in mergedDataMeanStd[5,2].
 4.  Appropriately labels the data set with descriptive variable names.
   - Remove "()" since this might be confusing to R (line 58).
