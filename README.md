@@ -46,6 +46,7 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - For example, if mergedDataMeanStd[5,2] is 3, then replace this with the activity numbered 3 
 (Walking Downstairs) by accessing activities[5,2] and storing it in mergedDataMeanStd[5,2].
 4.  Appropriately label the data set with descriptive variable names.
+  - Add "SubjectNumber" and "ActivityName" as names of the first two columns (lines 56 & 57).
   - Remove "()" since this might be confusing to R or users of R (line 58).
   - Remove hyphens and make things more descriptive.
   - Replace "-mean" with "Mean" and "-std" with "StandardDev" to be more descriptive (lines 59 & 60).
