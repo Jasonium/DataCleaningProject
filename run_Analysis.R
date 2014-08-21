@@ -53,6 +53,7 @@ mergedDataMeanStd<-mergedData[,relevantCols]
 mergedDataMeanStd[,2]<-activities[mergedDataMeanStd[,2],2]
 
 #Make measured variable names easier to interpret by R and more readable.
+test
 names(mergedDataMeanStd)[1]<-"SubjectNumber"
 names(mergedDataMeanStd)[2]<-"ActivityName"
 names(mergedDataMeanStd)<-gsub("\\(\\)","",names(mergedDataMeanStd))
