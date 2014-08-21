@@ -51,7 +51,7 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Remove hyphens and make things more descriptive.
   - Replace "-mean" with "Mean" and "-std" with "StandardDev" to be more descriptive (lines 59 & 60).
   - Remove remaining hyphens before the axis variables (line 61).
-  - Replace small "t" at the front of a variable name with more descriptive "Time", and the small "f" at the front with "FFT" for "Fast Fourier Transform" (lines 62-63).
+  - Replace small "t" at the front of a variable name with more descriptive "Time", and the small "f" at the front with "Freq" for "Frequency" (lines 62-63).
   - Make attributes more descriptive ("Acc" to "Acceleration", "Gyro" to "Gyroscope", "Mag" to "Magnitude") (lines 64-66)
   - Remove typos in variable names by changing "BodyBody" to "Body" (line 67). 
 5.  Create second, independent tidy data set with the average of each variable for each activity and each subject.
