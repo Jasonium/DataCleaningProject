@@ -10,7 +10,7 @@ A shortened version of this data set picks up the variables which represent mean
 
 The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the means of variables from the shortened version of the dataset.
 
-###### Features
+##### Features
 
 
-###### Variables in tidyData.txt
+##### Variables in tidyData.txt
