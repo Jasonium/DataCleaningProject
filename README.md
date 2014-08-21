@@ -69,5 +69,6 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 71). The result is 180 rows (30 subjects and 6 activities) and 68 columns (first column subject number, second column activity, then 66 measured variables).
   
 [1] Hadley Wickham, Tidy Data.  Weblink http://vita.had.co.nz/papers/tidy-data.pdf
+
 [2] David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.  International Workshop of Ambient Assisted Living
 (IWAAL 2012).  Vitoria-Gasteiz, Spain. Dec., 2012.
