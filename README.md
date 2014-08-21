@@ -18,11 +18,13 @@ The data is divided into two sets; the "training" set (about 70% of subjects) an
 
 Each set has a list of subjects (e.g., subject_training) and a list of activities (e.g., y_training), which match line by line. Each line corresponds to 561 measurements (contained in, e.g., X_training). 
 
-The information above is adapted from the official data codebook at weblink http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The information above is adapted from the official data codebook at weblink [1]. 
 
-The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.  The data set is tidy as defined in [1].
+[1] http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-By using the data we acknowledge publication [2].
+The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.  The data set is tidy as defined in [2].
+
+By using the data we acknowledge publication [3].
 
 #### The Output
 
@@ -68,7 +70,9 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Melt mergedDataMeanStd by the variables to average (by Subject Number and Activity Name) using the remaining columns as measuerements (line 70).
   - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 71). The result is 180 rows (30 subjects and 6 activities) and 68 columns (first column subject number, second column activity, then 66 measured variables).
   
-[1] Hadley Wickham, Tidy Data.  Weblink http://vita.had.co.nz/papers/tidy-data.pdf
+[1] http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-[2] David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.  International Workshop of Ambient Assisted Living
+[2] Hadley Wickham, Tidy Data.  Weblink http://vita.had.co.nz/papers/tidy-data.pdf
+
+[3] David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.  International Workshop of Ambient Assisted Living
 (IWAAL 2012).  Vitoria-Gasteiz, Spain. Dec., 2012.
