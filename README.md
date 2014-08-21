@@ -64,4 +64,4 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Remove typos in variable names by changing "BodyBody" to "Body" (line 67). 
 5.  Create second, independent tidy data set with the average of each variable for each activity and each subject.
   - Melt mergedDataMeanStd by the variables to average (by Subject Number and Activity Name) using the remaining columns as measuerements (line 70).
-  - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 71). The result is 180 rows (30 subjects and 6 activities) and 68 columns (First column subject number, second column activity, 66 measured variables).
+  - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 71). The result is 180 rows (30 subjects and 6 activities) and 68 columns (first column subject number, second column activity, then 66 measured variables).
