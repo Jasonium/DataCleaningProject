@@ -12,7 +12,15 @@ To run "run_Analysis.R" successfully:
 
 #### The Raw Data
 
+The data come from experiments carried out on a group of 30 subjects. Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, measurements were captured. 
 
+The data is divided into two sets; the "training" set and the "testing" set.  Each set of data has the same structure.
+
+Each set has a list of subjects (e.g., subject_training), a list of activities (e.g., y_training), which match line by line. Each line of data corresponds to 561 measurements per line (in, e.g., x_training).
+
+The information above is adapted from the official data codebook at weblink http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.
 
 #### The Output
 
