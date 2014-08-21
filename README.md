@@ -20,8 +20,6 @@ Each set has a list of subjects (e.g., subject_training) and a list of activitie
 
 The information above is adapted from the official data codebook at weblink [1]. 
 
-[1] http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
 The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.  The data set is tidy as defined in [2].
 
 By using the data we acknowledge publication [3].
