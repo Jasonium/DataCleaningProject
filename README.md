@@ -14,7 +14,7 @@ To run "run_Analysis.R" successfully:
 
 The data come from experiments carried out on a group of 30 subjects. Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, measurements were captured. 
 
-The data is divided into two sets; the "training" set and the "testing" set.  Each set of data has the same structure.
+The data is divided into two sets; the "training" set (about 70% of subjects) and the "testing" set (about 30% of subjects).  Each set of data has the same structure.
 
 Each set has a list of subjects (e.g., subject_training), a list of activities (e.g., y_training), which match line by line. Each line of data corresponds to 561 measurements per line (in, e.g., x_training).
 
