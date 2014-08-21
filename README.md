@@ -8,7 +8,7 @@ To run "run_Analysis.R" successfully:
 * Install "reshape2" R package.
 * Download data, unzip to /getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset
 * Place run_Analysis inside "UCI HAR Dataset".
-* Working directory must be "UCI HAR Dataset".
+* Working directory in R must be "UCI HAR Dataset".
 
 #### The Raw Data
 
