@@ -16,7 +16,7 @@ The data come from experiments carried out on a group of 30 subjects. Each subje
 
 The data is divided into two sets; the "training" set (about 70% of subjects) and the "testing" set (about 30% of subjects).  Each set of data has the same structure.
 
-Each set has a list of subjects (e.g., subject_training), a list of activities (e.g., y_training), which match line by line. Each line of data corresponds to 561 measurements per line (in, e.g., x_training).
+Each set has a list of subjects (e.g., subject_training) and a list of activities (e.g., y_training), which match line by line. Each line corresponds to 561 measurements (contained in, e.g., X_training). 
 
 The information above is adapted from the official data codebook at weblink http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
