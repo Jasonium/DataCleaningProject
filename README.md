@@ -23,7 +23,7 @@ These variables were chosen because they are pure means and standard deviations 
 #### How the Data was Tidied
 
 1.  Read in the data and merge into one data set.
-  - Load in necessary libraries needed (lines 2 - 3)
+  - Load in necessary libraries (lines 2 - 3)
   - Read the activity labels into a data table and give the columns descriptive names (lines 6 - 7)
   - Edit the activity labels to look "better".  
     - Convert underlines to spaces and changing words in all caps to capitalized words. 
@@ -42,11 +42,11 @@ For example, "WALKING_UPSTAIRS" becomes "Walking Upstairs". (lines 11 - 14)
 the relevant columns from the data in Step 1 by choosing only variable names with mean() and std() (lines 47-49).
 There are 66 such measurements. The smaller data table is mergedDataMeanStd (line 50).
 3.  Use descriptive activity names to name the activities in the data set.
-  - Replace column 2 of my smaller data table using the name of the activities read in from Step 0 using subsetting (line 53). 
+  - Replace column 2 of smaller data table using the name of the activities read in from Step 1 using subsetting (line 53). 
   - For example, if mergedDataMeanStd[5,2] is 3, then replace this with the activity numbered 3 
 (Walking Downstairs) by accessing activities[5,2] and storing it in mergedDataMeanStd[5,2].
-4.  Appropriately labels the data set with descriptive variable names.
-  - Remove "()" since this might be confusing to R (line 58).
+4.  Appropriately label the data set with descriptive variable names.
+  - Remove "()" since this might be confusing to R or users of R (line 58).
   - Remove hyphens and make things more descriptive.
   - Replace "-mean" with "Mean" and "-std" with "StandardDev" to be more descriptive (lines 59 & 60).
   - Remove remaining hyphens before the axis variables (line 61).
