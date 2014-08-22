@@ -40,9 +40,9 @@ These variables were chosen because they are pure means and standard deviations 
 For example, "WALKING_UPSTAIRS" becomes "Walking Upstairs". (lines 11 - 14)
   - Read in the features labels into a data table and give the columns descriptive names (lines 17 - 18)
   - Merge the training data together. (Lines 20-27)
-    - Switch to the "train" directory, read in the subject numbers, activity numbers, and data collected.  (Lines 22-24)
+    - Switch to the "train" directory, read in the subject numbers, activity numbers, and data collected.  (Lines 22 - 24)
     - Bind these into one table with first column as subject number, second column as activity number, and the remaining columns as data collected. (Line 27)
-  - Similarly, merge the testing data together. (Lines 29-36)
+  - Similarly, merge the testing data together. (Lines 29 - 36)
     - Switch to the "test" directory, read in the subject numbers, activity numbers, and data collected.  
     - Bind these into one table with first column as subject number, second column as activity number, and the remaining columns as data collected.
   - Finally, bind the two tables together to create one merged data set called mergedData (line 41). 
@@ -62,7 +62,7 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Replace "-mean" with "Mean" and "-std" with "StandardDev" to be more descriptive (lines 59 & 60).
   - Remove remaining hyphens before the axis variables (line 61).
   - Replace small "t" at the front of a variable name with more descriptive "Time", and the small "f" at the front with "Freq" for "Frequency" (lines 62-63).
-  - Make attributes more descriptive ("Acc" to "Acceleration", "Gyro" to "Gyroscope", "Mag" to "Magnitude") (lines 64-66)
+  - Make attributes more descriptive ("Acc" to "Accelerometer", "Gyro" to "Gyroscope", "Mag" to "Magnitude") (lines 64 - 66)
   - Remove typos in variable names by changing "BodyBody" to "Body" (line 67). 
 5.  Create second, independent tidy data set with the average of each variable for each activity and each subject.
   - Melt mergedDataMeanStd by the variables to average (by Subject Number and Activity Name) using the remaining columns as measuerements (line 70).
