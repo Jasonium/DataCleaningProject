@@ -14,12 +14,12 @@ The format of this section is
 *  Variable Name
   - Variable description
 
+The variables are as follows:
+
 *  SubjectNumber
-  - The subject's identification number.
-  - An integer between 1 and 30 inclusive.
+  - The subject's identification number, an integer between 1 and 30 inclusive.
 *  ActivityName
-  - The activity's name.
-  - One of Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs.
+  - The activity's name, one of Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs.
 *  TimeBodyAccelerometerMeanX
   - Mean in time domain of body acceleration signals obtained from accelerometer in the X direction.
 *  TimeBodyAccelerometerMeanY
