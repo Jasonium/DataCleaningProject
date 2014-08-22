@@ -6,12 +6,16 @@ Measurements for 30 subjects doing 6 activities were taken using a Samsung Galax
 
 A shortened version of this data set picks up the variables which represent means and standard deviations of signals taken.  There are 66 such variables. It excludes mean frequencies - that is, it excludes the weighted average of frequency components used to obtain a mean frequency. 
 
-The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the means of variables from the shortened version of the dataset.  It is tidied as defined in [1].
-
-##### Features
-
+The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the **means of variables** from the shortened version of the dataset.  It is tidied as defined in [1].
 
 ##### Variables in tidyData.txt
+
+The format of this section is
+*  Variable Name
+  - Variable description
+  - Variable Units and Range
+
+
 
 *  SubjectNumber
   - The subject's identification number.
