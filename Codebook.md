@@ -16,7 +16,7 @@ The format of this section is
   - Variable description
 
 
-The variables are as follows.  All measurement variables are normalized by subtracting their mean and dividing by their range, and therefore lie in the interval [-1,1].  To reiterate, the values reported here are the **means** of these normalized values for the given subject and activity.
+The variables are as follows.  All measurement variables were normalized by subtracting their mean and dividing by their range, and therefore are unitless and lie in the interval [-1,1].  To reiterate, the values reported here are the **means of these normalized values** for the given subject and activity.
 
 *  SubjectNumber
   - The subject's identification number, an integer between 1 and 30 inclusive.
