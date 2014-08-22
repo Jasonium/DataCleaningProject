@@ -8,11 +8,21 @@ A shortened version of this data set picks up the variables which represent mean
 
 The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the **means of variables** obtained for SubjectNumber and Activity from the shortened version of the dataset.  It is tidied as defined in [1].
 
+##### Domains and Units
+
+The time domain shows how the measurement changes over time (captured at a constant rate of 50 Hz, filtered at 20 Hz to remove noise), while the frequency domain shows frequencies lying in a specific band (0.3 Hz cutoff frequency) 
+
+Acceleration variables (body and gravity) are originally measured in "g" units, that is, meters per second squared.  Angular velocity variables are measured in radians per second.
+
+All features are normalized and bounded within [-1,1].
+
+
 ##### Variables in tidyData.txt
 
 The format of this section is
 *  Variable Name
   - Variable description
+
 
 The variables are as follows:
 
