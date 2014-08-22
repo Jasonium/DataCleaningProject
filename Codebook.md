@@ -42,17 +42,17 @@ The file tidyData.txt contains a 180 x 68 data table.  There is one row for each
 *  TimeGravityAccelerometerStandardDevZ
   - Standard deviation of time of gravity acceleration signals obtained from accelerometer in the Z direction
 *  TimeBodyAccelerometerJerkMeanX
-  - Mean of time of body acceleration signals of body linear acceleration obtained from accelerometer in the X direction
+  - Mean of time of body linear acceleration obtained from accelerometer in the X direction
 *  TimeBodyAccelerometerJerkMeanY
-  - Mean of time of body acceleration signals of body linear acceleration obtained from accelerometer in the Y direction
+  - Mean of time of body linear acceleration obtained from accelerometer in the Y direction
 *  TimeBodyAccelerometerJerkMeanZ
-  - Mean of time of body acceleration signals of body linear acceleration obtained from accelerometer in the Z direction
+  - Mean of time of body linear acceleration obtained from accelerometer in the Z direction
 *  TimeBodyAccelerometerJerkStandardDevX
-  - Standard deviation of time of body acceleration signals of body linear acceleration obtained from accelerometer in the X direction
+  - Standard deviation of time of body linear acceleration obtained from accelerometer in the X direction
 *  TimeBodyAccelerometerJerkStandardDevY
-  - Standard deviation of time of body acceleration signals of body linear acceleration obtained from accelerometer in the Y direction
+  - Standard deviation of time of body linear acceleration obtained from accelerometer in the Y direction
 *  TimeBodyAccelerometerJerkStandardDevZ
-  - Standard deviation of time of body acceleration signals of body linear acceleration obtained from accelerometer in the Z direction
+  - Standard deviation of time of body linear acceleration obtained from accelerometer in the Z direction
 *  TimeBodyGyroscopeMeanX
   - Mean of time of body acceleration signals obtained from gyroscope in the X direction
 *  TimeBodyGyroscopeMeanY
@@ -86,9 +86,9 @@ The file tidyData.txt contains a 180 x 68 data table.  There is one row for each
 *  TimeGravityAccelerometerMagnitudeStandardDev
   - Standard deviation of time of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer
 *  TimeBodyAccelerometerJerkMagnitudeMean
-  - Mean of time of magnitude (in Euclidean norm) of body acceleration signals of body linear acceleration obtained from accelerometer
+  - Mean of time of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  TimeBodyAccelerometerJerkMagnitudeStandardDev
-  - Standard deviation of time of magnitude (in Euclidean norm) of body acceleration signals of body linear acceleration obtained from accelerometer
+  - Standard deviation of time of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  TimeBodyGyroscopeMagnitudeMean
   - Mean of time of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  TimeBodyGyroscopeMagnitudeStandardDev
@@ -110,17 +110,17 @@ The file tidyData.txt contains a 180 x 68 data table.  There is one row for each
 *  FreqBodyAccelerometerStandardDevZ
   - Standard deviation of frequency of body acceleration signals obtained from accelerometer in the Z direction
 *  FreqBodyAccelerometerJerkMeanX
-  - Mean of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the X direction
+  - Mean of frequency of body linear acceleration obtained from accelerometer in the X direction
 *  FreqBodyAccelerometerJerkMeanY
-  - Mean of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the Y direction
+  - Mean of frequency of body linear acceleration obtained from accelerometer in the Y direction
 *  FreqBodyAccelerometerJerkMeanZ
-  - Mean of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the Z direction
+  - Mean of frequency of body linear acceleration obtained from accelerometer in the Z direction
 *  FreqBodyAccelerometerJerkStandardDevX
-  - Standard deviation of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the X direction
+  - Standard deviation of frequency of body linear acceleration obtained from accelerometer in the X direction
 *  FreqBodyAccelerometerJerkStandardDevY
-  - Standard deviation of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the Y direction
+  - Standard deviation of frequency of body linear acceleration obtained from accelerometer in the Y direction
 *  FreqBodyAccelerometerJerkStandardDevZ
-  - Standard deviation of frequency of body acceleration signals of body linear acceleration obtained from accelerometer in the Z direction
+  - Standard deviation of frequency of body linear acceleration obtained from accelerometer in the Z direction
 *  FreqBodyGyroscopeMeanX
   - Mean of frequency of body acceleration signals obtained from gyroscope in the X direction
 *  FreqBodyGyroscopeMeanY
@@ -138,9 +138,9 @@ The file tidyData.txt contains a 180 x 68 data table.  There is one row for each
 *  FreqBodyAccelerometerMagnitudeStandardDev
   - Standard deviation of frequency of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
 *  FreqBodyAccelerometerJerkMagnitudeMean
-  - Mean of frequency of magnitude (in Euclidean norm) of body acceleration signals of body linear acceleration obtained from accelerometer
+  - Mean of frequency of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  FreqBodyAccelerometerJerkMagnitudeStandardDev
-  - Standard deviation of frequency of magnitude (in Euclidean norm) of body acceleration signals of body linear acceleration obtained from accelerometer
+  - Standard deviation of frequency of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  FreqBodyGyroscopeMagnitudeMean
   - Mean of frequency of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  FreqBodyGyroscopeMagnitudeStandardDev
