@@ -32,7 +32,7 @@ These variables were chosen because they are pure means and standard deviations 
 
 #### How the Data was Tidied
 
-1.  Read in the data and merge into one data set.
+1.  Read in the raw data and merge into one data set.
   - Load in necessary libraries (lines 2 - 3)
   - Read the activity labels into a data table and give the columns descriptive names (lines 6 - 7)
   - Edit the activity labels to look "better".  
