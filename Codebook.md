@@ -14,9 +14,11 @@ The file tidyData.txt contains a 180 x 68 data table.  There is one row for each
 ##### Variables in tidyData.txt
 
 *  SubjectNumber
-  - 
+  - The subject's identification number.
+  - An integer between 1 and 30 inclusive.
 *  ActivityName
-  - 
+  - The activity's name.
+  - One of Walking, Sitting, Standing, Laying, Walking Upstairs, Walking Downstairs.
 *  TimeBodyAccelerometerMeanX
   - Mean in time domain of body acceleration signals obtained from accelerometer in the X direction.
 *  TimeBodyAccelerometerMeanY
