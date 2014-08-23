@@ -30,7 +30,7 @@ The output is a 180 x 68 table, where the rows are data for subjects 1 - 30 and 
 
 These variables were chosen because they are pure means and standard deviations on the data collected (and not mean frequencies).
 
-The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the **means of variables** obtained for SubjectNumber and Activity computed from the shortened version of the dataset. 
+The first two columns are "SubjectNumber" and "Activity", and the remaining 66 columns are the **means of variables** obtained for SubjectNumber and Activity computed from the shortened version of the dataset. 
 
 To load in tidyData.txt, navigate to the directory containing tidyData.txt and issue this command in R:
   - `tidyData <- read.table("tidyData.txt",header=TRUE)`
