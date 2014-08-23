@@ -26,7 +26,7 @@ By using the data we acknowledge publication [2].
 
 #### The Output and Reading into R to Test for Tidyness
 
-A 180 x 68 table, where the rows are data for subjects 1 - 30 and activities 1 - 6, and the columns are variables from the original dataset containing mean() and std() in the name. 
+The output is a 180 x 68 table, where the rows are data for subjects 1 - 30 and activities 1 - 6, and the columns are variables from the original dataset containing mean() and std() in the name. 
 
 These variables were chosen because they are pure means and standard deviations on the data collected (and not mean frequencies).
 
