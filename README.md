@@ -24,7 +24,7 @@ The raw data is tidied by run_Analysis.R, and a complete description of the tidi
 
 By using the data we acknowledge publication [3].
 
-#### The Output and Obtaining It
+#### The Output and Reading into R to Test for Tidyness
 
 A 180 x 68 table, where the rows are data for subjects 1 - 30 and activities 1 - 6, and the columns are variables from the original dataset containing mean() and std() in the name.
 
