@@ -98,19 +98,19 @@ The variables are as follows.  All measurement variables were normalized by subt
 *  TimeGravityAccelerometerMagnitudeMean
   - Mean in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer
 *  TimeGravityAccelerometerMagnitudeStandardDev
-  - Standard deviation in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer
+  - Standard deviation in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer.
 *  TimeBodyAccelerometerJerkMagnitudeMean
-  - Mean in time domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Mean in time domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer.
 *  TimeBodyAccelerometerJerkMagnitudeStandardDev
-  - Standard deviation in time domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Standard deviation in time domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer.
 *  TimeBodyGyroscopeMagnitudeMean
-  - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope.
 *  TimeBodyGyroscopeMagnitudeStandardDev
-  - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope.
 *  TimeBodyGyroscopeJerkMagnitudeMean
-  - Mean in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Mean in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope.
 *  TimeBodyGyroscopeJerkMagnitudeStandardDev
-  - Standard deviation in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Standard deviation in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope.
 *  FreqBodyAccelerometerMeanX
   - Mean in frequency domain of body acceleration signals obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerMeanY
@@ -148,21 +148,21 @@ The variables are as follows.  All measurement variables were normalized by subt
 *  FreqBodyGyroscopeStandardDevZ
   - Standard deviation in frequency domain of body acceleration signals obtained from gyroscope in the Z direction.
 *  FreqBodyAccelerometerMagnitudeMean
-  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer.
 *  FreqBodyAccelerometerMagnitudeStandardDev
-  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer.
 *  FreqBodyAccelerometerJerkMagnitudeMean
-  - Mean in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer.
 *  FreqBodyAccelerometerJerkMagnitudeStandardDev
-  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer.
 *  FreqBodyGyroscopeMagnitudeMean
-  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope.
 *  FreqBodyGyroscopeMagnitudeStandardDev
-  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope.
 *  FreqBodyGyroscopeJerkMagnitudeMean
-  - Mean in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Mean in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope.
 *  FreqBodyGyroscopeJerkMagnitudeStandardDev
-  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope.
 
 
 
