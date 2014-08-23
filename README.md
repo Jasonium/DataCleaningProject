@@ -66,8 +66,8 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   - Make attributes more descriptive ("Acc" to "Accelerometer", "Gyro" to "Gyroscope", "Mag" to "Magnitude") (lines 64 - 66)
   - Remove typos in variable names by changing "BodyBody" to "Body" (line 67). 
 5.  Create second, independent tidy data set with the average of each variable for each activity and each subject.
-  - Melt mergedDataMeanStd by the variables to average (by Subject Number and Activity Name) using the remaining columns as measuerements (line 70).
-  - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 71). The result is 180 rows (30 subjects and 6 activities) and 68 columns (first column subject number, second column activity, then 66 measured variables).
+  - Melt mergedDataMeanStd by the variables to average (by Subject Number and Activity Name) using the remaining columns as measuerements (line 70 - 71).
+  - Create second data table with each Subject Number and Activity Names as rows, and include the mean of each measurement in that row (line 75). The result is 180 rows (30 subjects and 6 activities) and 68 columns (first column subject number, second column activity, then 66 means of measured variables for each row).
   
 [1] http://web.archive.org/web/20140803224107/http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
