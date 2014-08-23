@@ -33,7 +33,7 @@ These variables were chosen because they are pure means and standard deviations 
 To load in tidyData.txt, navigate to the directory containing tidyData.txt and issue this command in R:
   - `tidyData <- read.table("tidyData.txt",header=TRUE)`
 
-The data set is tidy as defined in [3]: each variable is a column, each variable is a row, and each type of observational unit is a table (this one table is a mean of unitless normalized values). Use of this data requires us to reference [1].
+The data set is tidy as defined in [3]: each variable is a column, each variable is a row, and each type of observational unit is a table (this one table is a mean of unitless normalized values). 
 
 #### How the Data was Tidied
 
