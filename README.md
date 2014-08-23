@@ -55,7 +55,7 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
 3.  Use descriptive activity names to name the activities in the data set.
   - Replace column 2 of smaller data table using the name of the activities read in from Step 1 using subsetting (line 53). 
   - For example, if mergedDataMeanStd[5,2] is 3, then replace this with the activity numbered 3 
-(Walking Downstairs) by accessing activities[5,2] and storing it in mergedDataMeanStd[5,2].
+(Walking Downstairs) by accessing activities[3,2] and storing it in mergedDataMeanStd[5,2].
 4.  Appropriately label the data set with descriptive variable names.
   - Add "SubjectNumber" and "ActivityName" as names of the first two columns (lines 56 & 57).
   - Remove "()" since this might be confusing to R or users of R (line 58).
