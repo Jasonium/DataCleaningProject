@@ -13,6 +13,7 @@ Use of this data requires us to reference [2].
 
 Various information comes with the data.
 
+* The webpage for the dataset itself: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * README.txt gives an overview of the experiment and the data contained in the dataset.
 * activity_labels.txt describes the activity labels.
 * features_info.txt explains what the features are and how they were obtained.
