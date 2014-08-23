@@ -1,4 +1,4 @@
-## Readme.md for run_Analysis.R
+## README.md for run_Analysis.R
 
 #### Requirements
 
