@@ -31,7 +31,7 @@ A 180 x 68 table, where the rows are data for subjects 1 - 30 and activities 1 -
 These variables were chosen because they are pure means and standard deviations on the data collected (and not mean frequencies).
 
 To load in tidyData.txt, navigate to the directory containing tidyData.txt and issue this command in R:
-  - tidyData <- read.table("tidyData.txt",header=TRUE)
+  - `tidyData <- read.table("tidyData.txt",header=TRUE)`
 
 #### How the Data was Tidied
 
