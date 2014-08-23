@@ -11,7 +11,7 @@ Use of this data requires us to reference [2].
 
 ##### Existing Codebooks for this Data
 
-Various information comes with the data: see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Various information comes with the data: first see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
  
 * README.txt gives an overview of the experiment and the data contained in the dataset.
 * activity_labels.txt describes the activity labels.
