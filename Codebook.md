@@ -81,22 +81,16 @@ The variables are as follows.  All measurement variables were normalized by subt
   - Standard deviation in time domain of body acceleration signals obtained from gyroscope in the Z direction.
 *  TimeBodyGyroscopeJerkMeanX
   - Mean in time domain of angular velocity obtained from gyroscope in the X direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMeanY
   - Mean in time domain of angular velocity obtained from gyroscope in the Y direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMeanZ
   - Mean in time domain of angular velocity obtained from gyroscope in the Z direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevX
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the X direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevY
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the Y direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevZ
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the Z direction.
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyAccelerometerMagnitudeMean
   - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
 *  TimeBodyAccelerometerMagnitudeStandardDev
@@ -115,10 +109,8 @@ The variables are as follows.  All measurement variables were normalized by subt
   - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  TimeBodyGyroscopeJerkMagnitudeMean
   - Mean in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
-  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMagnitudeStandardDev
   - Standard deviation in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
-  - in radians per second, normalized to be in the interval [-1,1].
 *  FreqBodyAccelerometerMeanX
   - Mean in frequency domain of body acceleration signals obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerMeanY
@@ -169,10 +161,9 @@ The variables are as follows.  All measurement variables were normalized by subt
   - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  FreqBodyGyroscopeJerkMagnitudeMean
   - Mean in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
-  - in radians per second, normalized to be in the interval [-1,1].
 *  FreqBodyGyroscopeJerkMagnitudeStandardDev
   - Standard deviation in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
-  - in radians per second, normalized to be in the interval [-1,1].
+
 
 
 [1] Hadley Wickham.  http://vita.had.co.nz/papers/tidy-data.pdf
