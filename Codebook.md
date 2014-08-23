@@ -92,11 +92,11 @@ The variables are as follows.  All measurement variables were normalized by subt
 *  TimeBodyGyroscopeJerkStandardDevZ
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the Z direction.
 *  TimeBodyAccelerometerMagnitudeMean
-  - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer.
 *  TimeBodyAccelerometerMagnitudeStandardDev
-  - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer.
 *  TimeGravityAccelerometerMagnitudeMean
-  - Mean in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer
+  - Mean in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer.
 *  TimeGravityAccelerometerMagnitudeStandardDev
   - Standard deviation in time domain of magnitude (in Euclidean norm) of gravity acceleration signals obtained from accelerometer.
 *  TimeBodyAccelerometerJerkMagnitudeMean
