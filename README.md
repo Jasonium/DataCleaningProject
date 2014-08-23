@@ -20,9 +20,9 @@ Each set has a list of subjects (e.g., subject_training) and a list of activitie
 
 The information above is adapted from the official data codebook at weblink [1]. 
 
-The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.  The data set is tidy as defined in [2].
+The raw data is tidied by run_Analysis.R, and a complete description of the tidied set can be found in Codebook.md.  
 
-By using the data we acknowledge publication [3].
+By using the data we acknowledge publication [2].
 
 #### The Output and Reading into R to Test for Tidyness
 
@@ -32,6 +32,8 @@ These variables were chosen because they are pure means and standard deviations 
 
 To load in tidyData.txt, navigate to the directory containing tidyData.txt and issue this command in R:
   - `tidyData <- read.table("tidyData.txt",header=TRUE)`
+
+The data set is tidy as defined in [3]: each variable is a column, each variable is a row, and each type of observational unit is a table (this one table is a mean of unitless normalized values). Use of this data requires us to reference [1].
 
 #### How the Data was Tidied
 
@@ -74,7 +76,7 @@ There are 66 such measurements. The smaller data table is mergedDataMeanStd (lin
   
 [1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-[2] Hadley Wickham, Tidy Data.  Weblink http://vita.had.co.nz/papers/tidy-data.pdf
-
-[3] David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.  International Workshop of Ambient Assisted Living
+[2] David Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.  Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.  International Workshop of Ambient Assisted Living
 (IWAAL 2012).  Vitoria-Gasteiz, Spain. Dec., 2012.
+
+[3] Hadley Wickham, Tidy Data.  Weblink http://vita.had.co.nz/papers/tidy-data.pdf
