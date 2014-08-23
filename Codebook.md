@@ -9,6 +9,15 @@ A shortened version of this data set picks up the variables which represent mean
 The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the **means of variables** obtained for SubjectNumber and Activity computed from the shortened version of the dataset.  It is tidied as defined in [1]: each variable is a column, each variable is a row, and each type of observational unit is a table (this one table is a mean of unitless normalized values).
 Use of this data requires us to reference [2].
 
+##### Existing Codebooks
+
+Various information comes with the data.
+
+* README.txt gives an overview of the experiment and the data contained in the dataset.
+* activity_labels.txt describes the activity labels.
+* features_info.txt explains what the features are and how they were obtained.
+* features.txt gives a listing of the original variable names.
+
 ##### Variables in tidyData.txt
 
 The format of this section is
