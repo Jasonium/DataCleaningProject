@@ -20,8 +20,8 @@ names(features)<-c("FeatureNum","FeatureName")
 #Read in "train" data set and bind together.
 setwd("train")
 subject_train<-read.table("subject_train.txt")
-X_train<-read.table("X_train.txt")
 y_train<-read.table("y_train.txt")
+X_train<-read.table("X_train.txt")
 
 # Bind together as Subject, Activity Type, and Data
 trainData <-cbind(subject_train,y_train,X_train)
@@ -29,8 +29,8 @@ trainData <-cbind(subject_train,y_train,X_train)
 #Read in "test" data set and bind together.
 setwd("../test")
 subject_test<-read.table("subject_test.txt")
-X_test<-read.table("X_test.txt")
 y_test<-read.table("y_test.txt")
+X_test<-read.table("X_test.txt")
 
 # Bind together as Subject, Activity Type, and Data
 testData <-cbind(subject_test,y_test,X_test)
@@ -67,7 +67,8 @@ names(mergedDataMeanStd)<-gsub("Mag","Magnitude",names(mergedDataMeanStd))
 names(mergedDataMeanStd)<-gsub("BodyBody","Body",names(mergedDataMeanStd))
 
 #Create tidy data set.
-meltedData<-melt(mergedDataMeanStd,id=c("SubjectNumber","ActivityName"),measure.vars=names(mergedDataMeanStd)[3:68])
+meltedData<-melt(mergedDataMeanStd,
+                 id=c("SubjectNumber","ActivityName"),measure.vars=names(mergedDataMeanStd)[3:68])
 tidyData<-dcast(meltedData,SubjectNumber + ActivityName ~ variable, mean)
 
 #Write data table per specifications in assignment.
