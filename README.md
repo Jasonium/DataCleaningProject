@@ -46,6 +46,7 @@ For example, "WALKING_UPSTAIRS" becomes "Walking Upstairs". (lines 11 - 14)
     - Switch to the "test" directory, read in the subject numbers, activity numbers, and data collected.  
     - Bind these into one table with first column as subject number, second column as activity number, and the remaining columns as data collected.
   - Finally, bind the two tables together to create one merged data set called mergedData (line 41). 
+  - This data is in the same directory level as the raw data (line 38).
   - Name the columns of this table to be their original variable names for now (line 44).  
 2.  Extract the only the measurements on the mean and standard deviation for each measurement.
   - Assume that a strict mean or standard deviation of a measurement was intended.  Therefore, obtain
