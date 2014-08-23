@@ -1,4 +1,4 @@
-#### tidyData.txt Code Book
+#### Code Book for tidyData.txt
 
 ##### Overview
 
@@ -9,7 +9,7 @@ A shortened version of this data set picks up the variables which represent mean
 The file tidyData.txt contains a 180 x 68 data table.  There is one row for each subject (30 of them) and activity (6 of them), hence 180 rows.  The first two columns are "SubjectNumber" and "Activity", and the remaining 68 columns are the **means of variables** obtained for SubjectNumber and Activity computed from the shortened version of the dataset.  It is tidied as defined in [1]: each variable is a column, each variable is a row, and each type of observational unit is a table (this one table is a mean of unitless normalized values).
 Use of this data requires us to reference [2].
 
-##### Existing Codebooks
+##### Existing Codebooks for this Data
 
 Various information comes with the data.
 
