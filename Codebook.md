@@ -81,16 +81,22 @@ The variables are as follows.  All measurement variables were normalized by subt
   - Standard deviation in time domain of body acceleration signals obtained from gyroscope in the Z direction.
 *  TimeBodyGyroscopeJerkMeanX
   - Mean in time domain of angular velocity obtained from gyroscope in the X direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMeanY
   - Mean in time domain of angular velocity obtained from gyroscope in the Y direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMeanZ
   - Mean in time domain of angular velocity obtained from gyroscope in the Z direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevX
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the X direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevY
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the Y direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkStandardDevZ
   - Standard deviation in time domain of angular velocity obtained from gyroscope in the Z direction.
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyAccelerometerMagnitudeMean
   - Mean in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
 *  TimeBodyAccelerometerMagnitudeStandardDev
@@ -109,60 +115,64 @@ The variables are as follows.  All measurement variables were normalized by subt
   - Standard deviation in time domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  TimeBodyGyroscopeJerkMagnitudeMean
   - Mean in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - in radians per second, normalized to be in the interval [-1,1].
 *  TimeBodyGyroscopeJerkMagnitudeStandardDev
   - Standard deviation in time domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - in radians per second, normalized to be in the interval [-1,1].
 *  FreqBodyAccelerometerMeanX
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the X direction.
+  - Mean in frequency domain of body acceleration signals obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerMeanY
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the Y direction.
+  - Mean in frequency domain of body acceleration signals obtained from accelerometer in the Y direction.
 *  FreqBodyAccelerometerMeanZ
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the Z direction.
+  - Mean in frequency domain of body acceleration signals obtained from accelerometer in the Z direction.
 *  FreqBodyAccelerometerStandardDevX
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the X direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerStandardDevY
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the Y direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from accelerometer in the Y direction.
 *  FreqBodyAccelerometerStandardDevZ
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from accelerometer in the Z direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from accelerometer in the Z direction.
 *  FreqBodyAccelerometerJerkMeanX
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the X direction.
+  - Mean in frequency domain of body linear acceleration obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerJerkMeanY
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the Y direction.
+  - Mean in frequency domain of body linear acceleration obtained from accelerometer in the Y direction.
 *  FreqBodyAccelerometerJerkMeanZ
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the Z direction.
+  - Mean in frequency domain of body linear acceleration obtained from accelerometer in the Z direction.
 *  FreqBodyAccelerometerJerkStandardDevX
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the X direction.
+  - Standard deviation in frequency domain of body linear acceleration obtained from accelerometer in the X direction.
 *  FreqBodyAccelerometerJerkStandardDevY
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the Y direction.
+  - Standard deviation in frequency domain of body linear acceleration obtained from accelerometer in the Y direction.
 *  FreqBodyAccelerometerJerkStandardDevZ
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body linear acceleration obtained from accelerometer in the Z direction.
+  - Standard deviation in frequency domain of body linear acceleration obtained from accelerometer in the Z direction.
 *  FreqBodyGyroscopeMeanX
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the X direction.
+  - Mean in frequency domain of body acceleration signals obtained from gyroscope in the X direction.
 *  FreqBodyGyroscopeMeanY
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the Y direction.
+  - Mean in frequency domain of body acceleration signals obtained from gyroscope in the Y direction.
 *  FreqBodyGyroscopeMeanZ
-  - Mean in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the Z direction.
+  - Mean in frequency domain of body acceleration signals obtained from gyroscope in the Z direction.
 *  FreqBodyGyroscopeStandardDevX
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the X direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from gyroscope in the X direction.
 *  FreqBodyGyroscopeStandardDevY
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the Y direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from gyroscope in the Y direction.
 *  FreqBodyGyroscopeStandardDevZ
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of body acceleration signals obtained from gyroscope in the Z direction.
+  - Standard deviation in frequency domain of body acceleration signals obtained from gyroscope in the Z direction.
 *  FreqBodyAccelerometerMagnitudeMean
-  - Mean in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
 *  FreqBodyAccelerometerMagnitudeStandardDev
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from accelerometer
 *  FreqBodyAccelerometerJerkMagnitudeMean
-  - Mean in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  FreqBodyAccelerometerJerkMagnitudeStandardDev
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body linear acceleration obtained from accelerometer
 *  FreqBodyGyroscopeMagnitudeMean
-  - Mean in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Mean in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  FreqBodyGyroscopeMagnitudeStandardDev
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of body acceleration signals obtained from gyroscope
 *  FreqBodyGyroscopeJerkMagnitudeMean
-  - Mean in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Mean in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - in radians per second, normalized to be in the interval [-1,1].
 *  FreqBodyGyroscopeJerkMagnitudeStandardDev
-  - Standard deviation in frequency domain \(using Fast Fourier Transform\) of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - Standard deviation in frequency domain of magnitude (in Euclidean norm) of angular velocity obtained from gyroscope
+  - in radians per second, normalized to be in the interval [-1,1].
 
 
 [1] Hadley Wickham.  http://vita.had.co.nz/papers/tidy-data.pdf
